@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To-Do List</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
@@ -16,6 +16,12 @@
       <input type="text" id="task-input" placeholder="Add a new task">
       <button id="add-task-btn">Add Task</button>
     </div>
+
+    <div id="filters" class="filter-section">
+       <button id="filter-all" class="active">All</button>
+       <button id="filter-completed">Completed</button>
+      <button id="filter-pending">Pending</button>
+  </div>
 
     <!-- Task list -->
     <ul id="task-list">
